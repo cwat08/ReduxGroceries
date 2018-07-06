@@ -1,12 +1,12 @@
 import React from "react";
 
-const GroceryItem = ({ onClick, bought, text }) => (
+const GroceryItem = ({ onClick, bought, string }) => (
   <li
     onClick={onClick}
     style={{
       textDecoration: bought ? "line-through" : "none"
     }}>
-    {text}
+    {string}
   </li>
 );
 
